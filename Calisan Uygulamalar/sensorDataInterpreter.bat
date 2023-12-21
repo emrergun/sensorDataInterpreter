@@ -1,0 +1,1 @@
+java -jar .\sensorDataInterpreterJarFile\sensorDataInterpreter-0.0.1-SNAPSHOT.jar

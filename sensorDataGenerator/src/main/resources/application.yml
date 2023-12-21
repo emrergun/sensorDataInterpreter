@@ -1,0 +1,15 @@
+server:
+  port:
+    9000
+
+spring:
+  application:
+    name: random-sensor-data-generator
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      sensor_topic: sensor_topic
+
+scheduled:
+  random-sensor-data-generator-fixed-delay-in-ms: 1000
+  random-generated-sensor-data-max-number: 50
